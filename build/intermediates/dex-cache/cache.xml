@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Uni\Fitness\FitnessUnibs\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="95204fdc51c656a0d5ac53a4c5f2b4a39cc8bb2c">
+        <dex dex="D:\Uni\Fitness\FitnessUnibs\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b06ed6e9fdbb775abca97d3f04fed90cc8f9b347\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Uni\Fitness\FitnessUnibs\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Uni\Fitness\FitnessUnibs\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d4f302ac5a27fe94596a74fd2f17026a3d366706\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutDatiFissi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/dataStoricoListView"
+        android:layout_width="33dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/nomeEsercizioStoricoListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/ripetizioniStoricoListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/durataStoricoListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

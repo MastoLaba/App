@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.unibs.ing.fp.fitnessunibs.SceltaAttivita"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/testoSceltaAttivita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/piccola"
+        android:gravity="center_horizontal"
+        android:text="@string/strSceltaAttivita"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+    <Button
+        android:id="@+id/bottoneAddominali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickAddominali"
+        android:text="@string/addominali" />
+
+    <Button
+        android:id="@+id/bottoneFlessioni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickFlessioni"
+        android:text="@string/flessioni" />
+
+    <Button
+        android:id="@+id/bottoneSquat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickSquat"
+        android:text="@string/squat" />
+
+
+
+</LinearLayout>

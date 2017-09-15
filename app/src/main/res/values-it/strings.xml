@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data">Data</string>
+    <string name="ripetizoniAttivita">Ripetizioni</string>
+    <string name="durata">Durata</string>
+    <string name="storico">Storico</string>
+    <string name="tornaSceltaAttivita">Torna agli Esercizi</string>
+    <string name="uscitaScura">Sei sicuro di voler uscire?</string>
+</resources>

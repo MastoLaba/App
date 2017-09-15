@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.unibs.ing.fp.fitnessunibs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoapp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoapp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PaginaIniziale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SceltaLingua" />
+        <activity android:name=".InserimentoDati" />
+        <activity android:name=".Home" />
+        <activity android:name=".Impostazioni" />
+        <activity android:name=".SceltaAttivita" />
+        <activity android:name=".Flessioni" />
+        <activity android:name=".Riconoscimenti" />
+        <activity android:name=".Storico" />
+        <activity android:name=".SerieFlessioni" />
+        <activity android:name=".PersonalizzaFlessioni"></activity>
+    </application>
+
+</manifest>

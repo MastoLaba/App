@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/testoUscita"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:gravity="center_horizontal"
+        android:text="@string/uscitaScura"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/tastoConfermaDialogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conferma" />
+
+    <Button
+        android:id="@+id/tastoAnnullaDialogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/annulla" />
+</LinearLayout>
